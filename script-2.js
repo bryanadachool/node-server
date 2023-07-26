@@ -1,4 +1,5 @@
 
+const { Server } = require('http');
 const readline = require('readline');
 
 const rl = readline.createInterface({
@@ -104,3 +105,4 @@ async function showMenu() {
 
 console.log('===== Aplicación de Lista de Tareas =====');
 showMenu();
+module.exports = showMenu();
